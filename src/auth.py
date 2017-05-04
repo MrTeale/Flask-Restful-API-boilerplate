@@ -7,5 +7,5 @@ def authentication(email, password):
     if user['idToken'] != None:
         return user['idToken']
     else:
-        print("ERROR: User is not logged in")
-        return
+        error = "ERROR: User is not logged in"
+        return error
